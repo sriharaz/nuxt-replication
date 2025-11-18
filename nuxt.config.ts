@@ -13,7 +13,7 @@ export default defineNuxtConfig({
     },
     routeRules: {
       '/api/**': { cors: true },
-      '/': { ssr: true },
+      '/': { ssr: false },
       '/static-test': { prerender: true }
     }
   },
